@@ -1,165 +1,385 @@
 <!DOCTYPE html>
-<!-- saved from url=(0062)http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/apple-touch-icon-152x152.png">
-    <link rel="icon" type="image/png" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/images/favicon-16x16.png" sizes="16x16">
-    <meta name="application-name" content=" ">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="mstile-144x144.png">
-    <!-- Smart app banner meta tag below, once the app is in the app store -->
-    <!-- <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL"> -->
-    <title>Welcome to Happy Nurse!</title>
-    <link href="./Duo App_files/all.css" rel="stylesheet" type="text/css">
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="googlebot" content="index,follow">
+
+    <!-- Title -->
+    <title>Welcome to Happy Nurse by Kelly Rodebush</title>
+
+    <!-- Templates core CSS -->
+    <link href="stylesheets/application.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link href="images/favicon/favicon.png" rel="shortcut icon">
+    <link href="images/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+    <link href="images/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="images/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Modernizr Scripts -->
+    <script src="javascript/vendor/modernizr-2.7.1.min.js"></script>
   </head>
-  <body class="index">
-    <header class="navigation" role="banner">
-  <div class="navigation-wrapper">
-    <a class="logo" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/">
-      <img alt="HappyNurse" src="./Duo App_files/duo-logo.png">
-    </a>
-    <nav role="navigation">
-      <ul class="navigation-menu show" id="js-navigation-menu">
-        <li class="nav-link">
-          <a class="navigation-link" href="http://duo-app-caleb-duren.s3-website-us-west-2.amazonaws.com/#features" id="feature-link">Features</a>
-        </li>
-        <li class="nav-link">
-          <a class="navigation-link" href="javascript:void(0)" onclick="javascript:alert(&#39;Download redirect&#39;)">Download</a>
-        </li>
-        <li class="nav-link login-li">
-          <a class="login" href="javascript:void(0)" onclick="javascript:alert(&#39;Login modal&#39;)">Log In</a>
-        </li>
-        <li class="nav-link signup-li">
-          <a class="signup" href="javascript:void(0)" onclick="javascript:alert(&#39;Signup modal&#39;)">Sign Up</a>
-        </li>
+  <body class="index" id="to-top">
+
+    <!-- Side nav -->
+    <nav class="side-nav" role="navigation">
+
+      <ul class="nav-side-nav">
+        <li><a class="tooltip-side-nav" href="#section-1" title="" data-original-title="Services" data-placement="left"></a></li>
+        <li><a class="tooltip-side-nav" href="#section-2" title="" data-original-title="Features" data-placement="left"></a></li>
+        <li><a class="tooltip-side-nav" href="#section-3" title="" data-original-title="Subscribe" data-placement="left"></a></li>
+        <li><a class="tooltip-side-nav" href="#to-top" title="" data-original-title="Back" data-placement="left"></a></li>
       </ul>
-    </nav>
-  </div>
-</header>
-<div class="intro">
-  <div class="tagline-container">
-    <h1 class="tagline">A simple place to share tasks and chat with the most important person in your&nbsp;life</h1>
-    <div class="outer-container">
-      <div class="phone-container">
-        <div class="left-phone">
-          <div class="space-gray-phone-bg silver-phone-shrink" id="space-gray-phone" style="opacity: 1;"></div>
-        </div>
-        <div class="right-phone">
-          <div class="silver-phone-bg intro-phone-scroll" id="intro-phone">
-            <div class="message-width">
-              <img class="ios ios-message-right message no-y-translate" id="ios-message-1" src="./Duo App_files/top-bubble.png">
-              <img class="ios ios-message-left message no-y-translate" id="ios-message-2" src="./Duo App_files/second-bubble.png">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="content-container">
-  <div class="outer-container">
-    <div class="for-left">
-      <h2 class="perfect-for" id="perfect-for">Duo is perfect for<br class="medium-screen"> <span id="blank-space" class="blank-space"><span id="js-rotating" class="morphext"><span class="animated fadeIn">Sharing</span></span></span></h2>
-    </div>
-    <div class="for-right">
-      <div class="for-cta">
-        <a href="javascript:void(0)" onclick="javascript:alert(&#39;Download redirect&#39;)">
-          <button class="button-one">Try Duo Now, Free <img class="arrow" src="./Duo App_files/arrow.png"></button>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="features-container" id="features">
-    <div class="top-row">
-      <div class="first-feature-left">
-        <div class="feature-wrapper">
-          <h3 class="feature-heading">Share Tasks</h3>
-          <p class="feature-copy">Keep one another on track with a simple shared task&nbsp;list</p>
-          <p class="feature-copy">Create tasks for you or your partner, and add due dates to help keep things on&nbsp;schedule</p>
-        </div>
-      </div>
-      <div class="first-feature-right"></div>
-    </div>
-    <div class="bottom-row">
-      <div class="second-feature-left"></div>
-      <div class="second-feature-right">
-        <div class="feature-wrapper">
-          <h3 class="feature-heading">Chat Live</h3>
-          <p class="feature-copy">Tap on one another’s avatars to chat it up and see everything you’ve completed so&nbsp;far</p>
-          <p class="feature-copy">Toss in a picture, too, if you don’t have time to type 1,000 extra&nbsp;words</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="app-store-container">
-    <div class="app-store-content">
-      <h4 class="app-store-heading">
-        <a href="javascript:void(0)" onclick="javascript:alert(&#39;App store redirect&#39;)">Get Duo in the App&nbsp;Store</a>
-      </h4>
-      <div class="app-store-button">
-        <a href="javascript:void(0)" onclick="javascript:alert(&#39;App store redirect&#39;)">
-          <img class="app-store" src="./Duo App_files/app-store.png">
-        </a>
-      </div>
-    </div>
-  </div>
-  <footer class="footer" role="contentinfo">
-    <div class="footer-table-cell">
-      <div class="footer-links">
-        <ul>
-          <li>
-            <h3 class="footer-header">Company</h3>
-          </li>
-          <li>
-            <a href="javascript:void(0)">About</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Support</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Blog</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h3 class="footer-header">Find Us</h3>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Duo for iOS</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Twitter</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Facebook</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h3 class="footer-header">Legal</h3>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Terms and Conditions</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Privacy Policy</a>
-          </li>
-        </ul>
-      </div>
-      <p class="footer-copyright footer-header">© <script>document.write(new Date().getFullYear())</script>2017 Duo</p>
-    </div>
-  </footer>
-</div>
 
-  
-  <script src="./Duo App_files/all.js" type="text/javascript"></script>
+    </nav> <!-- /.side-nav -->
 
-</body></html>
+
+
+
+    <!-- Jumbotron -->
+    <header class="jumbotron" role="banner">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-7">
+
+            <!-- Logo -->
+            <figure class="text-center">
+              <a href="./index.html">
+                <img class="img-logo" src="images/logo.png" alt="">
+              </a>
+            </figure> <!-- /.text-center -->
+
+            <!-- Title -->
+            <h1>Cure Nursing Stress Stat!</h1>
+
+            <!-- Sub title -->
+            <p>Meet the app that is reducing nursing stress by adding doses of humor, something positive to look forward to, and instant access to professional therapists!</p>
+
+            <!-- Button -->
+            <p class="btn-app-store">
+              <a class="btn btn-danger btn-lg" href="#">
+                <img src="images/btn-app-store.png" alt="">
+              </a>
+            </p> <!-- /.btn-app-store -->
+
+          </div> <!-- /.col-md-7 -->
+
+          <div class="col-md-5">
+
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone" src="images/iphone/2.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </header> <!-- /.jumbotron -->
+
+
+
+
+    <!-- Services -->
+    <section class="services-section" id="section-1">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 col-services">
+
+            <!-- Icons -->
+            <figure>
+              <img class="img-services" src="images/icons/flag.png" alt="Humor">
+            </figure>
+
+            <!-- Title -->
+            <h4>Humor</h4>
+
+            <!-- Description -->
+            <p>Open the app and get an instant dose of laughs. Laughter really is the best medicine.</p>
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-services">
+
+            <!-- Icons -->
+            <figure>
+              <img class="img-services" src="images/icons/search.png" alt="">
+            </figure>
+
+            <!-- Title -->
+            <h4>Plans</h4>
+
+            <!-- Description -->
+            <p>Studies show that nurses that have something positive to look forward to are happier and less stressed.</p>
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-services">
+
+            <!-- Icons -->
+            <figure>
+              <img class="img-services img-margin" src="images/icons/world-map.png" alt="">
+            </figure>
+
+            <!-- Title -->
+            <h4>Therapy</h4>
+
+            <!-- Description -->
+            <p>When all else fails, Happy Nurse provides instant access to therapists via phone or chat.</p>
+
+          </div> <!-- /.col-md-4 -->
+
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </section> <!-- /.services-section -->
+
+
+
+
+    <!-- Features -->
+    <section class="features-section" id="section-2">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-5 col-features text-center">
+
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone" src="images/iphone/1.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+
+          <div class="col-md-7 col-features features-content">
+
+            <!-- Title -->
+            <h3 id="title-1">Customizable Laughs</h3>
+
+            <!-- Description -->
+            <p>Funny content on Happy Nurse is provided by Happy Nurse, but can also be customized to allow nurses and hospital staff to create and post their own funny memes and jokes. This helps make Happy Nurse feel more localized and personal.</p>
+
+            <p>
+              <a class="btn btn-danger" href="#title-2">Learn more</a>
+            </p>
+
+          </div> <!-- /.col-md-7 -->
+
+        </div> <!-- /.row -->
+
+
+
+
+        <div class="row media-screen-800">
+
+          <div class="col-md-7 col-features features-content">
+
+            <!-- Title -->
+            <h3 id="title-2">Make Plans, Share Plans</h3>
+
+            <!-- Description -->
+            <p>Stressful day? See fun reminders about your upcoming next big adventure with freinds and family. Happy Nurse keeps track of weather, messages, and fun updates on your plans. Nursing schools, hospitals and care facilities can also post plans that other nurses can easily join to de-stress. The next movie night or group dinner is just aoround the corner - hang in there!</p>
+
+            <p>
+              <a class="btn btn-danger" href="#title-2">Learn more</a>
+            </p>
+
+          </div> <!-- /.col-md-7 -->
+
+          <div class="col-md-5 col-features text-center">
+
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone margin-top margin-screen-800" src="images/iphone/4.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+
+        </div> <!-- /.row -->
+
+
+
+
+        <div class="row">
+
+          <div class="col-md-5 col-features text-center">
+
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone margin-top margin-top-1" src="images/iphone/3.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+
+          <div class="col-md-7 col-features features-content">
+
+            <!-- Title -->
+            <h3 id="title-3">Serious help with the tap of a button</h3>
+
+            <!-- Description -->
+            <p>Nursing is one the most stressful professions. That's why we're always here with a 24/7 phone hotline where you can talk about your experience at work or even in nursing school. Prefer some additional privacy or something more low-key? Happy Nurse allows you to just chat with a trained therapist 24/7.</p>
+
+            <!-- Button -->
+            <p class="btn-app-store">
+              <a class="btn btn-danger btn-lg" href="#fakelinks">
+                <img src="images/btn-app-store.png" alt="">
+              </a>
+            </p> <!-- /.btn-app-store -->
+
+          </div> <!-- /.col-md-7 -->
+
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </section> <!-- /.features-section -->
+
+
+
+
+    <!-- Subscribe -->
+    <section class="subscribe-section" id="section-3">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            <!-- Title -->
+            <h2>Subscribe to get delightfully infrequent updates</h2>
+
+            <!-- Subscribe form -->
+            <div class="row">
+
+              <div class="col-md-6 col-md-offset-3 col-subscribe">
+
+                <form class="subscribe-form form-inline" action="./index.html" role="form">
+
+                  <!-- Input -->
+                  <div class="form-group">
+
+                    <label class="sr-only" for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email address">
+
+                  </div> <!-- /.form-group -->
+
+                  <!-- Button -->
+                  <button class="btn btn-success" type="submit">Subscribe</button>
+
+                </form> <!-- /.subscribe-form -->
+
+
+
+                <section class="subscribe-description">
+
+                  <p>Don't worry. We do not spam :)</p>
+
+                </section> <!-- /.subscribe-description -->
+
+              </div> <!-- /.col-md-6 -->
+
+            </div> <!-- /.row -->
+
+          </div> <!-- /.col-md-12 -->
+
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </section> <!-- /.subscribe-section -->
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer-section" role="contentinfo">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 col-footer">
+
+            <!-- Footer 1 -->
+            <section>
+              <p>Made with <i class="fa fa-heart"></i> by Kelly Rodebush.</p>
+            </section>
+
+            <!-- AddThis Button -->
+            <ul class="addthis_toolbox addthis_default_style">
+
+              <li><a class="addthis_button_facebook_like"></a></li>
+              <li><a class="addthis_button_tweet"></a></li>
+
+            </ul> <!-- /.addthis_toolbox -->
+            <script>var addthis_config = {"data_track_addressbar":true};</script>
+            <script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-533f6ac03b59c72a"></script>
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-footer col-padding">
+
+            <!-- Footer 1 -->
+            <section class="text-center">
+            </section>
+
+            <!-- Social media links -->
+            <ul class="social-media-links">
+
+              <li><a class="fa fa-twitter tw"></a></li>
+              <li><a class="fa fa-facebook fb"></a></li>
+              <li><a class="fa fa-pinterest pn"></a></li>
+
+            </ul> <!-- /.social-media-links -->
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-footer">
+
+            <!-- Footer 1 -->
+            <section>
+              <p><strong>Happy Nurse, Inc</strong> <br>801 Waverley Street, Apt 1 <br>Palo Alto, CA 94301</p>
+            </section>
+
+          </div> <!-- /.col-md-4 -->
+
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </footer> <!-- /.footer-section -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="javascript/vendor/jquery-2.1.0.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/assets/application.js"></script>
+  </body>
+</html>
